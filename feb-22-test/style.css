@@ -97,3 +97,9 @@ links a:active{
 #bttn2:hover{
     transform: scale(1.2);
 }
+
+/* question 14 */
+
+.select p::selection{
+    background-color: yellowgreen;
+}
