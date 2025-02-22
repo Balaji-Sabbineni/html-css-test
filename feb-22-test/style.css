@@ -35,3 +35,16 @@ links a:active{
     margin: 10px;
     max-width: 300px;
 }
+
+/* questoin 4 */
+
+.nav-items{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.nav-items a{
+    text-decoration: none;
+}
