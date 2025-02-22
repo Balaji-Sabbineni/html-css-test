@@ -26,3 +26,12 @@ links a:active{
     line-height: 1.6;
     text-align: justify;
 }
+
+/* question 3 */
+
+.card {
+    border: 1px solid grey;
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+}
