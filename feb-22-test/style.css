@@ -84,3 +84,16 @@ links a:active{
     background-color: darkblue;
     transition: background-color 0.3s ease;
 }
+
+/* question 7 */
+
+#bttn2{
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    transition: transform 0.5s ease;
+}
+
+#bttn2:hover{
+    transform: scale(1.2);
+}
