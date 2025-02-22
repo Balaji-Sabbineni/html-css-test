@@ -48,3 +48,25 @@ links a:active{
 .nav-items a{
     text-decoration: none;
 }
+
+/* question 5 */
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:10px;
+    max-width: 620px;
+
+}
+
+.gallery img{
+    width: 300px;
+    height: 200px;
+}
+
+@media(max-width: 600px) {
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
