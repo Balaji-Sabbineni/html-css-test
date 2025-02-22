@@ -70,3 +70,17 @@ links a:active{
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+/* questoin 6 */
+
+#bttn{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+#bttn:hover{
+    background-color: darkblue;
+    transition: background-color 0.3s ease;
+}
