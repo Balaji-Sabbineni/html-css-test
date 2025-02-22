@@ -1,0 +1,10 @@
+.links a{
+    color: blue;
+}
+.links a:hover{
+    color: red;
+}
+
+links a:active{
+    color: green;
+}
