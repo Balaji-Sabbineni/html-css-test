@@ -182,3 +182,21 @@ header{
         color: whitesmoke;
     }
 }
+
+/* question 8 */
+
+.box{
+    height: 100px;
+    width: 20%;
+    background-color: coral;
+    animation: slide 3s infinite;
+    }
+
+    @keyframes slide {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(300px);
+        }
+}
