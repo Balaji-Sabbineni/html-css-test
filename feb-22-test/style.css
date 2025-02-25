@@ -167,3 +167,18 @@ links a:active{
         padding: 10px;
     }
 }
+
+/* question 10 */
+
+header{
+    --main-color: lightblue;
+    background-color: var(--main-color);
+    color: black;
+}
+
+@media (max-width:768px){
+    header{
+        background-color: darkblue;
+        color: whitesmoke;
+    }
+}
